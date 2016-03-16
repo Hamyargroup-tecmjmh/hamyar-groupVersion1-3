@@ -235,7 +235,7 @@ local lock_sticker = "no"
         lock_tag = data[tostring(msg.to.id)]['settings']['sticker']
         end
          local settings = data[tostring(target)]['settings']
-  local text = "Group settings:\nLock group name : "..settings.lock_name.."\n_-_-_-__-_-_-_\Lock group photo : "..settings.lock_photo.."\n_-_-_-__-_-_-_\Lock group tag : "..lock_tag.."\n_-_-_-__-_-_-_\Lock group member : "..settings.lock_member.."\n_-_-_-__-_-_-_\Lock group english : "..lock_eng.."\n_-_-_-__-_-_-_\Lock group leave : "..lock_leave.."\n_-_-_-__-_-_-_\Lock group bad words : "..lock_badw.."\n_-_-_-__-_-_-_\Lock group links : "..lock_link.."\n_-_-_-__-_-_-_\Lock group join : "..lock_adds.."\n_-_-_-__-_-_-_\Lock group sticker : "..lock_sticker.."\n_-_-_-__-_-_-_\flood sensitivity : "..NUM_MSG_MAX.."\n_-_-_-__-_-_-_\Bot protection : "..bots_protection.."\n_-_-_-__-_-_-_\Public: "..public.."Hamyargroup v1.3"
+  local text = "Group settings:\nLock group name : "..settings.lock_name.."\nLock group photo : "..settings.lock_photo.."\nLock group tag : "..lock_tag.."\nLock group member : "..settings.lock_member.."\nLock group english ðŸ—£ : "..lock_eng.."\n Lock group leave : "..lock_leave.."\nLock group bad words : "..lock_badw.."\nLock group links : "..lock_link.."\nLock group join : "..lock_adds.."\nLock group sticker : "..lock_sticker.."\nflood sensitivity : "..NUM_MSG_MAX.."\nBot protection : "..bots_protection--"\nPublic: "..public
   return text
 end
 
